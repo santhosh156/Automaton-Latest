@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Bootstrap Core CSS -->
+
+
+    <!-- Custom CSS -->
+
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body id="wf_page-top" class="workflows">
+    <p>
+    
+
+----------------------------------------------------------------
+Output of messages for workload object P_M_ORD_DTL_FACT_INT2/PREPORT_VENUS25_FACTS.393/MAIN
+Start date Mon Apr 11 23:33:02 2016
+----------------------------------------------------------------
+length 153
+xml_str <=230
+
+SQL*Plus: Release 11.2.0.3.0 Production on Mon Apr 11 23:33:03 2016
+
+Copyright (c) 1982, 2011, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 12c Enterprise Edition Release 12.1.0.2.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,
+Advanced Analytics and Real Application Testing options
+
+old   3:     theframework.P_DISPATCHER ( '&&prcdr_nm','&&xml_str1&&xml_str2',:ERROR_LEVEL );
+new   3:     theframework.P_DISPATCHER ( 'P_M_ORD_DTL_FACT_INT2','<INPUT_XML><PARAMETERS><PARAM><POSITION>1</POSITION><VALUE></VALUE></PARAM><PARAM><POSITION>2</POSITION><VALUE></VALUE></PARAM></PARAMETERS></INPUT_XML>',:ERROR_LEVEL );
+------ Batch Control -----
+Batch ID:                 1118824
+DW Schema:                VENUS25
+QA Schema:                BI_VALIDATION
+Target Table Schema:      VENUS25
+Target Table:             ORD_DTL_FACT_2_TMP
+Job Schema:
+Job Name:                 P_M_ORD_DTL_FACT_INT2
+Job Group:
+Job Started On:           12-APR-16
+------ Job Control -------
+Execute Change Cntrl:     Yes
+Execute Batch Cntrl:      Yes
+Set Data Section:         No
+Data Section:             NONE
+String Field:
+Date Field:               LST_UPD_OR_CRT_DTTM
+Numeric Field:
+Source Table Schema:
+Source Table:
+Source Date Field:
+Trace Mode:               ON
+Tracel Level:             0
+Continue on Error:        Yes
+Error Threshold %:        2
+Use Hashing:
+------ Hard Values -------
+NVL_NA:                   N/A
+NVL_YES:                  Yes
+NVL_Y:                    Y
+NVL_NO:                   No
+NVL_N:                    N
+NVL_FUT_DT:               31-DEC-00
+NVL_PST_DT:               01-JAN-00
+Values Prior to Job Execution
+Src Rows:                 0
+Last Date Key:            01-JAN-00
+End Date Key:             12-APR-16
+Prior Date Key:           01-JAN-00
+Last Numeric Key:         0
+Prior Numeric Key:        0
+Last String Key:
+Prior String Key:
+Values After to Job Execution
+Src Rows:                 0
+Last Date Key:            01-JAN-00
+End Date Key:             12-APR-16
+Prior Date Key:           01-JAN-00
+Last Numeric Key:         0
+Prior Numeric Key:        0
+Last String Key:
+Prior String Key:
+The data error number were 0 / 0
+
+PL/SQL procedure successfully completed.
+
+Disconnected from Oracle Database 12c Enterprise Edition Release 12.1.0.2.0 - 64bit Production
+With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,
+Advanced Analytics and Real Application Testing options
+return code: 0
+
+
+VENUS25	ORD_DTL_FACT_2_TMP	P_M_ORD_DTL_FACT_INT2	NONE	0		1/1/1900 11:59:59 PM	9999999		
+
+687977	P_M_ORD_DTL_FACT_INT2	ORD_DTL_FACT_2_TMP	9/14/2014 8:03:52 PM	9/14/2014 8:12:47 PM	00:08:55	ETL_US	0	0	0	0	0	0	0	1	0	1/1/1900 11:59:59 PM		0	1/1/1900 11:59:59 PM		NONE				VENUS25
+684861	P_M_ORD_DTL_FACT_INT2	ORD_DTL_FACT_2_TMP	9/8/2014 5:30:26 AM	9/8/2014 5:38:38 AM	00:08:12	ETL_US	0	0	0	0	0	0	0	1	0	1/1/1900 11:59:59 PM		0	1/1/1900 11:59:59 PM		NONE				VENUS25
+683118	P_M_ORD_DTL_FACT_INT2	ORD_DTL_FACT_2_TMP	9/4/2014 9:37:02 PM	9/4/2014 9:55:45 PM	00:18:43	ETL_US	0	0	0	0	0	0	0	1	0	1/1/1900 11:59:59 PM		0	1/1/1900 11:59:59 PM		NONE				VENUS25
+682390	P_M_ORD_DTL_FACT_INT2	ORD_DTL_FACT_2_TMP	9/3/2014 2:00:42 AM	9/3/2014 2:15:39 AM	00:14:56	ETL_US	0	0	0	0	0	0	0	1	0	1/1/1900 11:59:59 PM		0	1/1/1900 11:59:59 PM		NONE				VENUS25
+681606	P_M_ORD_DTL_FACT_INT2	ORD_DTL_FACT_2_TMP	9/1/2014 7:15:40 PM	9/1/2014 7:30:47 PM	00:15:07	ETL_US	0	0	0	0	0	0	0	1	0	1/1/1900 11:59:59 PM		0	1/1/1900 11:59:59 PM		NONE				VENUS25
+
+P_M_ORD_DTL_FACT_INT2	9326	12801	ORA-12801: error signaled in parallel query server P014, instance pxarpdbp004:GDRPTP1 (1)	ORA-12801: error signaled in parallel query server P014, instance pxarpdbp004:GDRPTP1 (1)
+ORA-30926: unable to get a stable set of rows in the source tables
+  ORA-06512: at "VENUS25.P_M_ORD_DTL_FACT_INT2", line 96
+	----- PL/SQL Call Stack -----
+  object      line  object
+  handle    number  name
+700000b63d89c38       166  package body THEFRAMEWORK.ERRORHANDLER
+700000b63d89c38        10  package body THEFRAMEWORK.ERRORHANDLER
+700000b7eee0ce0       537  procedure VENUS25.P_M_ORD_DTL_FACT_INT2
+700000b607098d8         1  anonymous block
+700000b83f10f58       128  procedure THEFRAMEWORK.P_DISPATCHER
+700000b6f4ed888         3  anonymous block
+	9/23/2014 9:45:18 PM	692714	
+P_M_ORD_DTL_FACT_INT2	12673	12801	ORA-12801: error signaled in parallel query server P00Q, instance px35srv17:GDVNSP2 (2)	ORA-12801: error signaled in parallel query server P00Q, instance px35srv17:GDVNSP2 (2)
+ORA-30926: unable to get a stable set of rows in the source tables
+  ORA-06512: at "VENUS25.P_M_ORD_DTL_FACT_INT2", line 105
+	----- PL/SQL Call Stack -----
+  object      line  object
+  handle    number  name
+0x389daebb60       166  package body THEFRAMEWORK.ERRORHANDLER
+0x389daebb60        10  package body THEFRAMEWORK.ERRORHANDLER
+0x38d94cc658       546  procedure VENUS25.P_M_ORD_DTL_FACT_INT2
+0x389d42b640         1  anonymous block
+0x39fffdb6a0       128  procedure THEFRAMEWORK.P_DISPATCHER
+0x38b87a5f38         3  anonymous block
+	9/5/2015 7:21:27 AM	878021	
+P_M_ORD_DTL_FACT_INT2	12674	12801	ORA-12801: error signaled in parallel query server P00T, instance px35srv17:GDVNSP2 (2)	ORA-12801: error signaled in parallel query server P00T, instance px35srv17:GDVNSP2 (2)
+ORA-30926: unable to get a stable set of rows in the source tables
+  ORA-06512: at "VENUS25.P_M_ORD_DTL_FACT_INT2", line 105
+	----- PL/SQL Call Stack -----
+  object      line  object
+  handle    number  name
+0x389daebb60       166  package body THEFRAMEWORK.ERRORHANDLER
+0x389daebb60        10  package body THEFRAMEWORK.ERRORHANDLER
+0x38d94cc658       546  procedure VENUS25.P_M_ORD_DTL_FACT_INT2
+0x389d42b640         1  anonymous block
+0x39fffdb6a0       128  procedure THEFRAMEWORK.P_DISPATCHER
+0x38b87a5f38         3  anonymous block
+	9/5/2015 5:06:23 PM	878145	
+P_M_ORD_DTL_FACT_INT2	12676	12801	ORA-12801: error signaled in parallel query server P00B, instance px34srv17:GDVNSP1 (1)	ORA-12801: error signaled in parallel query server P00B, instance px34srv17:GDVNSP1 (1)
+ORA-30926: unable to get a stable set of rows in the source tables
+  ORA-06512: at "VENUS25.P_M_ORD_DTL_FACT_INT2", line 105
+	----- PL/SQL Call Stack -----
+  object      line  object
+  handle    number  name
+0x389daebb60       166  package body THEFRAMEWORK.ERRORHANDLER
+0x389daebb60        10  package body THEFRAMEWORK.ERRORHANDLER
+0x38d94cc658       546  procedure VENUS25.P_M_ORD_DTL_FACT_INT2
+0x389d42b640         1  anonymous block
+0x39fffdb6a0       128  procedure THEFRAMEWORK.P_DISPATCHER
+0x38b87a5f38         3  anonymous block
+	9/6/2015 2:13:27 AM	878413	
+P_M_ORD_DTL_FACT_INT2	13034	12801	ORA-12801: error signaled in parallel query server P00Q, instance px34srv17:GDVNSP1 (1)	ORA-12801: error signaled in parallel query server P00Q, instance px34srv17:GDVNSP1 (1)
+ORA-30926: unable to get a stable set of rows in the source tables
+  ORA-06512: at "VENUS25.P_M_ORD_DTL_FACT_INT2", line 46
+	----- PL/SQL Call Stack -----
+  object      line  object
+  handle    number  name
+0x386e232908       166  package body THEFRAMEWORK.ERRORHANDLER
+0x386e232908        10  package body THEFRAMEWORK.ERRORHANDLER
+0x382d9b3318       546  procedure VENUS25.P_M_ORD_DTL_FACT_INT2
+0x3870ae70d0         1  anonymous block
+0x38b6ddb790       128  procedure THEFRAMEWORK.P_DISPATCHER
+0x384b4aec78         3  anonymous block
+	2/27/2016 1:23:22 AM	1076827	
+
+    
+    </p>
+
+
+</body>
